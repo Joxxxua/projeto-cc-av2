@@ -1,3 +1,4 @@
+"""Cria o target top10 e seleciona features seguras (sem leakage)."""
 import pandas as pd
 
 
