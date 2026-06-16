@@ -3,7 +3,7 @@ import pandas as pd
 
 
 FEATURES_NUMERICAS = ["grid", "TrackTemp", "AirTemp", "Humidity", "Rainfall", "WindSpeed"]
-LIMIAR_DRIFT = 0.20
+LIMIAR_DRIFT = 0.20  # alerta se diferença percentual da média > 20%
 
 
 def calcular_drift():
