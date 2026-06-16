@@ -1,0 +1,46 @@
+# MLflow
+mlflow.db
+mlruns/
+
+# Dados (não versionar o dado bruto/processado)
+data/raw/*.parquet
+data/processed/
+data/final/
+
+# Modelos serializados
+models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/img/
+
+# IDEs
+.vscode/
+.idea/
+
+# Variáveis de ambiente
+.env
+
+# Claude Code / ferramentas internas
+.claude/
+CLAUDE.md
+SPECS.md
+
+# Scripts auxiliares e testes locais
+smoke_test.ps1
+tests/
+experiments/
+
+# Docker e config extras
+.dockerignore
+.env.example
+Makefile
