@@ -31,7 +31,7 @@ def build_dataset():
         .reset_index()
     )
 
-    # Garantia: nenhuma coluna de leakage pode estar presente
+    # Garantia: assertion explode se qualquer coluna de leakage escapar
     leaked = set(agg.columns) & LEAKAGE_COLS
     assert not leaked, f"LEAKAGE DETECTADO: {leaked}"
 
