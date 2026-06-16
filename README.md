@@ -166,6 +166,22 @@ Validação cruzada (StratifiedKFold, 10 folds): F1 médio = **0.947 ± 0.021**.
 
 ---
 
+## Estrutura do projeto
+
+```
+├── main.py              # pipeline completo
+├── src/
+│   ├── data/            # limpeza e agregação
+│   ├── features/        # engenharia de features
+│   ├── models/          # treino e avaliação
+│   ├── monitoring/      # detecção de drift
+│   └── api/             # FastAPI serving
+├── notebooks/           # EDA exploratório
+├── reports/             # artigo e slides
+├── pyproject.toml       # dependências
+└── Dockerfile           # containerização
+```
+
 ## Limitações
 
 - **Features durante a corrida excluídas intencionalmente (anti-leakage):** posição durante a corrida (`position_x`), status de finalização (`status`), tempos de volta (`milliseconds`, `time`), estratégia de pneus (`Compound`, `TyreLife`, `Stint`, `FreshTyre`) e número de voltas (`lap`, `LapNumber`) foram descartados porque só existem *após* ou *durante* a corrida — usá-los seria data leakage.
