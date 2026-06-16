@@ -1,3 +1,4 @@
+"""Avalia o modelo salvo com validação cruzada e métricas de classificação."""
 import joblib
 import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix
