@@ -1,3 +1,4 @@
+"""Agrega os dados volta-a-volta para uma linha por resultado de corrida."""
 import pandas as pd
 
 
