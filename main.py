@@ -1,3 +1,4 @@
+"""Orquestrador do pipeline completo: dados → features → treino → avaliação."""
 import sys
 import time
 
