@@ -74,7 +74,7 @@ def treinar_modelo():
     mlflow.set_experiment("F1Top10")
 
     resultados = []
-    melhor_f1 = -1
+    melhor_f1 = -1  # rastreia o melhor F1 no conjunto de teste
     melhor_pipeline = None
     melhor_nome = None
 
