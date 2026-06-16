@@ -4,8 +4,8 @@ mlruns/
 
 # Dados (não versionar o dado bruto/processado)
 data/raw/*.parquet
-data/processed/
-data/final/
+data/processed/*.parquet
+data/final/*.parquet
 
 # Modelos serializados
 models/*.pkl
