@@ -1,6 +1,7 @@
 [project]
 name = "f1-top10-predictor"
-version = "1.0.0"
+version = "0.1.0"
+description = "Predicts whether an F1 driver finishes in the top 10 using pre-race data only"
 requires-python = ">=3.11"
 dependencies = [
     "pandas==2.3.3",
