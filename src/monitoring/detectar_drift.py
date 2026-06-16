@@ -1,3 +1,4 @@
+"""Detecta drift de distribuição entre temporadas de referência e atual."""
 import pandas as pd
 
 
