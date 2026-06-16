@@ -35,12 +35,9 @@ notebooks/img/
 CLAUDE.md
 SPECS.md
 
-# Scripts auxiliares e testes locais
+# Scripts auxiliares
 smoke_test.ps1
-tests/
-experiments/
 
 # Docker e config extras
 .dockerignore
 .env.example
-Makefile
