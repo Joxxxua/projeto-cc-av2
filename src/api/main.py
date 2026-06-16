@@ -1,3 +1,4 @@
+"""FastAPI app para servir o modelo F1 Top-10 Predictor."""
 import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException
