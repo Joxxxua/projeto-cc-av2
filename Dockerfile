@@ -1,3 +1,5 @@
+# Build: docker build -t f1-top10-predictor .
+# Run:   docker run -p 8000:8000 f1-top10-predictor
 FROM python:3.11-slim
 
 WORKDIR /app
